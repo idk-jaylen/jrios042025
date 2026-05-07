@@ -1,0 +1,247 @@
+/* Mobile View - Default */
+:root {
+  --main-font: arial;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  min-height: 10rem;
+  max-width: 75rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+#pageheader {
+  background-color: rgb(216, 181, 219);
+  min-height: auto;
+  padding: 1rem;
+}
+
+#logo {
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: none;
+  background-image: url(Images/Logo.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#pageheader .container {
+  background-color: none;
+  min-height: auto;
+  text-align: center;
+  background-color: rgb(238, 203, 241);
+}
+
+#aifooter {
+  background-color: seagreen;
+  padding: 1rem;
+  min-height: auto;
+}
+
+#aifooter .container {
+  text-align: center;
+  min-height: auto;
+  background-color: #a04545;
+}
+
+#pageheader nav {
+  text-align: center;
+}
+
+#pageheader nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#pageheader nav ul li {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 1rem;
+  background-color: rgb(242, 214, 245);
+  margin: 2px;
+}
+
+#pageheader nav ul li:hover {
+  background-color: rgb(216, 181, 219);
+}
+
+#media {
+  background-color: rgb(170, 170, 245);
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/background.png);
+  background-size: cover;
+  aspect-ratio: 16 /9;
+}
+
+#career {
+  background-color: #adb3cd;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#career .container {
+  background-color: rgb(200, 199, 218);
+  color: rgb(255, 255, 255);
+}
+
+#pagecontent {
+  background-color: rgb(216, 181, 219);
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#pagecontent .container {
+  background-color: rgb(238, 203, 241);
+  color: rgb(255, 255, 255);
+}
+
+#semester1 {
+  background-color: rgb(177, 148, 199);
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester1 .container {
+  background-color: rgb(207, 177, 230);
+  color: rgb(255, 255, 255);
+}
+
+#semester2 {
+  background-color: rgb(93, 123, 167);
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester2 .container {
+  background-color: rgb(122, 147, 185);
+  color: rgb(255, 255, 255);
+}
+
+#pagefooter {
+  background-color: rgb(245, 214, 170);
+  min-height: auto;
+  padding: 0.7rem;
+}
+
+#pagefooter .container {
+  background-color: #c06767;
+  text-align: center;
+  min-height: auto;
+  color: rgb(255, 255, 255);
+}
+
+#subfooter {
+  background-color: rgb(218, 245, 170);
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: auto;
+  background-color: rgb(97, 192, 192);
+  border: 5px solid rgb(182, 140, 182);
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: none;
+  }
+  #logo {
+    margin: 0;
+  }
+}
+
+/* Tablet View */
+@media screen and (min-width: 600px) {
+  #pageheader nav ul {
+    background-color: none;
+    margin-top: 2rem;
+  }
+  #pageheader nav ul li {
+    display: inline-block;
+  }
+
+  #pagecontent {
+    background-color: rgb(130, 149, 193);
+  }
+
+  #pagecontent .container {
+    background-color: rgb(169, 186, 224);
+  }
+
+  #career {
+    background-color: rgb(190, 160, 199);
+  }
+
+  #career .container {
+    background-color: rgb(209, 180, 218);
+  }
+
+  #semester1 {
+    background-color: rgb(156, 155, 174);
+  }
+
+  #semester1 .container {
+    background-color: rgb(177, 176, 193);
+  }
+
+  #semester2 {
+    background-color: rgb(115, 101, 137);
+  }
+
+  #semester2 .container {
+    background-color: rgb(141, 127, 164);
+  }
+}
+
+/* Desktop View */
+@media screen and (min-width: 1000px) {
+  #pagecontent {
+    background-color: rgb(39, 61, 100);
+  }
+
+  #pagecontent .container {
+    background-color: rgb(78, 90, 130);
+  }
+
+  #career {
+    background-color: rgb(191, 153, 190);
+  }
+  #career .container {
+    background-color: rgb(221, 176, 220);
+  }
+
+  #semester1 {
+    background-color: rgb(139, 124, 171);
+  }
+
+  #semester1 .container {
+    background-color: rgb(160, 144, 195);
+  }
+
+  #semester2 {
+    background-color: rgb(140, 161, 198);
+  }
+
+  #semester2 .container {
+    background-color: rgb(169, 190, 226);
+  }
+}
