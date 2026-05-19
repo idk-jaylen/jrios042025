@@ -78,11 +78,13 @@ body {
 
 #media {
   background-color: rgb(170, 170, 245);
-  min-height: 10rem;
+  /* min-height: 10rem; */
+  height: 80vh;
   padding: 1rem;
   background-image: url(Images/background.png);
   background-size: cover;
-  aspect-ratio: 16 /9;
+  /* aspect-ratio: 16 /9; */
+  background-position:;
 }
 
 #career {
@@ -129,6 +131,28 @@ body {
   color: rgb(255, 255, 255);
 }
 
+#worksamples {
+  background-color: rgb(236, 196, 228);
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#worksamples .container {
+  background-color: rgb(251, 215, 244);
+  color: rgb(255, 255, 255);
+}
+#certificates {
+  background-color: rgb(236, 196, 228);
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates .container {
+  background-color: rgb(251, 215, 244);
+  color: rgb(255, 255, 255);
+}
+#certificates ul {
+  list-style-type: none;
+}
 #pagefooter {
   background-color: rgb(245, 214, 170);
   min-height: auto;
